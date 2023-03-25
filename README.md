@@ -14,7 +14,7 @@ ARM templates can be deployed using the Azure Portal, PowerShell, Azure CLI, and
 
 Overall, Azure ARM provides a powerful and flexible way to manage Azure resources, and is a key component in building and managing cloud infrastructure in Microsoft Azure.
 
-## Branches
+### Branches of this repository
 ###### Resource-Group
 Azure Resource Group is a logical container in Microsoft Azure used to group related resources for easy management, deployment, and monitoring.
 
