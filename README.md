@@ -1,18 +1,18 @@
-# Azure-ARM
-Azure ARM is a key component of Infrastructure as Code (IaC) in Microsoft Azure, allowing for the creation and management of infrastructure using templates and APIs.
+# Azure-Resource Group
+Azure Resource Group is a logical container in Microsoft Azure used to group related resources for easy management, deployment, and monitoring.
 ###### Date: 25-March-2023 <br>
 ###### Version: 1.0 </br>
 #### Social Media: Twitter: [@ShreeNiraula](https://twitter.com/ShreeNiraula) | LinkedIn: [ShreeNiraula](https://www.linkedin.com/in/shreeniraula/)
 
-Azure ARM (Azure Resource Manager) is a management framework in Microsoft Azure used for deploying and managing Azure resources. It provides a unified way to create, deploy, and manage Azure resources through templates and APIs.
+Azure Resource Group is a fundamental concept in Microsoft Azure that serves as a logical container for a set of related resources. It is a unit of management that allows for the grouping, deployment, and monitoring of resources together.
 
-ARM templates are JSON files that describe the resources that need to be deployed to Azure. These templates can be used to deploy resources across multiple subscriptions and regions in a consistent and repeatable way. ARM templates can also be version controlled, making it easier to manage changes to the infrastructure over time.
+Resource Groups enable the management of resources as a single entity, which makes it easier to deploy, monitor, and manage Azure resources. By grouping resources together in a Resource Group, it's possible to deploy, manage and delete resources as a group, rather than managing them individually.
 
-ARM provides a declarative way of defining resources and their dependencies. This allows for the creation of complex environments with multiple resources and their interdependencies managed in a single template. ARM also allows for the creation of resource groups, which are logical containers for resources that can be managed together.
+Resource Groups can contain resources from different Azure services, such as virtual machines, storage accounts, and virtual networks. It is also possible to move resources from one Resource Group to another or across Azure subscriptions. This allows for greater flexibility in managing resources in Azure.
 
-ARM templates can be deployed using the Azure Portal, PowerShell, Azure CLI, and other tools. Once a template is deployed, it can be managed and updated using Azure Resource Manager.
+Additionally, Resource Groups can be assigned tags to help with the management and organization of resources. Tags can be used to categorize resources based on attributes such as the application they belong to, the environment they're deployed in, or the department that owns them.
 
-Overall, Azure ARM provides a powerful and flexible way to manage Azure resources, and is a key component in building and managing cloud infrastructure in Microsoft Azure.
+Overall, Azure Resource Groups provide a powerful way to manage resources in Microsoft Azure, allowing for greater control and flexibility in managing complex deployments.
 
 ## File Listing & Description
 1. rg-creation-parameters.json<br>
