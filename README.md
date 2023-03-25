@@ -1,5 +1,5 @@
 # Azure-ARM
-Azure ARM is a key component of Infrastructure as Code (IaC) in Microsoft Azure, allowing for the creation and management of infrastructure using templates and APIs
+Azure ARM is a key component of Infrastructure as Code (IaC) in Microsoft Azure, allowing for the creation and management of infrastructure using templates and APIs.
 ###### Date: 25-March-2023 <br>
 ###### Version: 1.0 </br>
 #### Social Media: Twitter: [@ShreeNiraula](https://twitter.com/ShreeNiraula) | LinkedIn: [ShreeNiraula](https://www.linkedin.com/in/shreeniraula/)
@@ -13,3 +13,7 @@ ARM provides a declarative way of defining resources and their dependencies. Thi
 ARM templates can be deployed using the Azure Portal, PowerShell, Azure CLI, and other tools. Once a template is deployed, it can be managed and updated using Azure Resource Manager.
 
 Overall, Azure ARM provides a powerful and flexible way to manage Azure resources, and is a key component in building and managing cloud infrastructure in Microsoft Azure.
+
+## File Listing & Description
+1. rg-creation-parameters.json<br>
+2. rg-creation-template.json<br>
